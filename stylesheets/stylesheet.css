@@ -44,6 +44,10 @@ summary {
   display: block;
 }
 
+.header_text{
+	text-align : center;
+}
+
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -442,7 +446,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #90D355;
 }
 
@@ -901,6 +905,10 @@ footer .owner p a {
 .markdown-body img {
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.separator{
+	color: #63a52a;
 }
 
 .highlight  { background: #ffffff; }
